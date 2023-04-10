@@ -1,20 +1,4 @@
-# Complete S3 bucket with most of supported features enabled
 
-Configuration in this directory creates S3 bucket which demos such capabilities:
-- static web-site hosting
-- access logging (for S3, ELB and ALB/NLB)
-- versioning
-- CORS
-- lifecycle rules
-- server-side encryption
-- object locking
-- grants (required for CloudFront logs)
-
-Please check [S3 replication example](https://github.com/terraform-aws-modules/terraform-aws-s3-bucket/tree/master/examples/s3-replication) to see Cross-Region Replication (CRR) supported by this module.
-
-## Usage
-
-To run this example you need to execute:
 
 ```bash
 $ terraform init
